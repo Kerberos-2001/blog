@@ -1,0 +1,83 @@
+*{
+    font-family: 'Marvel', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+label{
+    display: none;
+}
+
+.inpt{
+    width: 350px;
+    font-size: large;
+    border: none;
+    border-bottom: 1px black solid;
+    margin: 0px 20px;
+    padding-top: 10px;
+}
+
+.signUpimg{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.loginform{
+    margin-top: 30%;
+    margin-left: 12%;
+}
+
+.formClass{
+    border-right: 1px black solid;
+    height: 490px;
+    width: 100;
+    overflow: hidden;
+}
+
+.formDiv{
+    margin-top: 7%;
+    margin-left: 12%;
+    box-shadow: 5px 5px 10px rgba(65, 65, 65, 0.432);
+    height: 500px;
+}
+
+.Cbtn{
+    background-color: black;
+    color: white;
+}
+
+#searchbtn{
+    background-color: #ffc107;
+    border: 1px solid black;
+    padding: 5px 25px;
+}
+
+.btn{
+    margin-left: 25%;
+}
+
+.nav-item{
+    margin-left: auto;
+}
+
+a{
+    color: black;
+}
+
+.overlay{
+    background-image: url('../image/indexphoto.JPG');
+    background-size: cover;
+    height: 95%;
+    width: 100%;
+}
+
+.innerlay{
+    margin-left: 25%;
+    padding-top: 25%;
+}
+
+#blog{
+    margin-left: 35%;
+    margin-top: 4%;
+}

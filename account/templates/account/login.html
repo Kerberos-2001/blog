@@ -1,0 +1,24 @@
+{% extends 'post/base.html' %}
+{% load static %}
+{% block content %}
+<div class="container formDiv">
+    <div class="row">
+        <div class="col-xs-12 col-lg-6 col-md-6 col-sm-12 formClass">
+            <img class="signUpimg" src="{% static  'image/login.JPG'%}">
+
+        </div>
+        <div class="col-12 col-lg-6 col-md-6 col-sm-12">
+            <br>
+            <form method="POST" class="loginform">
+                {% csrf_token %}
+                {{ form.as_p }}
+                <Button class="btn btn-dark" type="submit">
+                    Login
+                </Button>
+            </form>
+
+        </div>
+
+    </div>
+</div>
+{% endblock %}
